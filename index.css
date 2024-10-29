@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: lightgrey;
+    font-family:'Times New Roman', Times, serif;     
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;  
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: lightblue;   
+    width: 500px;
+    justify-content: center;    
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;  
+}
+input{   
+    border-radius: 3px;
+    padding: 10px 15px;   
+    width: 400px;
+    font-size: 15px;
+}
+button{ 
+    background-color: darkgrey;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 450px;
+}
+button:hover{
+    background-color: lightgrey;
+}
+.results-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+.DI, .MS, .Savings{
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+
+
+ 
